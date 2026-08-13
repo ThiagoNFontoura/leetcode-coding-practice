@@ -1,0 +1,9 @@
+A solucao menos robusta consiste em apenas escolher o primeiro inteiro n menor
+que target e varrer o restante do array em busca do complemento dele, isto eh,
+um numero m tal que n+m=target.
+No pior dos casos, teriamos O(n*n), que eh uma complexidade ruim.
+Eh possivel fazer em O(n*logn) reordenando os numeros num vetor auxiliar usando,
+por exemplo, Merge Sort (O(n*logn)) e, entao, escolher o menor inteiro e buscar
+seu complemento usando Binary Search, ja que agora o array esta ordenado.
+Ao final, basta fazer uma busca reversa usando os valores encontrado no vetor
+original e retornar os indices corretos;
