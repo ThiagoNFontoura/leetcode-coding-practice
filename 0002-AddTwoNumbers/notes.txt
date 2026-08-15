@@ -1,0 +1,4 @@
+A solucao envolve uma recursao que vai somando digito a digito do LSD ate o MSD,
+passando o carry para a proxima chamada recursiva. Como a assinatura do metodo
+original nao incluia o carry, foi necessario incluir um metodo "solve" que
+possuia carry como parametro, mas fazer um overload de funcao ja seria suficiente.
