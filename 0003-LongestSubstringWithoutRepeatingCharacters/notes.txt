@@ -1,0 +1,3 @@
+A solucao utiliza hash map para salvar quais chars ja foram vistos e sua posicao na string.
+Toda vez que um char lido ja esta no hash map, seu indice eh atualizado. Max eh atualizado
+a cada iteracao.
