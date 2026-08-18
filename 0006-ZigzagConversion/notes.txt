@@ -1,0 +1,4 @@
+A solucao utiliza uma logica relativamente simplex de reconstrucao
+do zigzag usando uma matriz de strings que compoem as linhas da grade
+do zigzag e um indice de posicao pos que verifica em qual o char
+atual deve ser inserido. Ao final, concatena as strings das linhas.
