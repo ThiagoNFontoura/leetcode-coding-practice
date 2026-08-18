@@ -1,0 +1,2 @@
+A solucao eh simples e usa somente operadores de divisao, resto e multiplicacao.
+Ao final, eh feita uma verificacao para retornar 0 em caso de over/underflow.
