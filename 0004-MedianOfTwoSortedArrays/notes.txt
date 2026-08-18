@@ -1,0 +1,7 @@
+A solucao utiliza Binary Search sobre o indice do menor dos vetores
+e nao sobre os valores dos vetores. As chamadas da Binary Search tentam
+aproximar i e j dos indices correspondes ao valores centrais de um vetor
+que teria o valor dos dois vetores combinados. O indice I vai "pulando"
+no vetor, as vezes a esquerda e as vezes a direita da(s) posicao(oes)
+central(is), sempre tentando ser mantido "a esquerda" de j, mas o mais
+proximo possivel.
