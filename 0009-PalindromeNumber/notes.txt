@@ -1,0 +1,2 @@
+A solucao consiste em inverter x e verificar se o numero continua o mesmo
+(rev==x?). Numeros negativos sao automaticamente nao palindromos.
