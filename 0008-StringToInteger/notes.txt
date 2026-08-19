@@ -1,0 +1,1 @@
+Solucao tranquila, so tem infinitos casos de borda desnecessarios.
