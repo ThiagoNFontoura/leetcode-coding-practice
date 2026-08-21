@@ -1,0 +1,2 @@
+Solucao simples de algoritmo guloso (melhor escolha local).
+Resolvido em O(n) usando dois indices.
