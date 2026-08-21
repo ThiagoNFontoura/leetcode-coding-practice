@@ -1,0 +1,7 @@
+Problema complexo. Solucao inicial envolvi apenas recursaosem memoizacao.
+Falhou no ultimo teste por TLE
+
+Nova solucao salva o resultado de ramos de execucao usando os indices de s e p.
+A matriz de memoizacao comeca inicializada com undefined (-1) e guarda apenas
+ramos falsos. Ramos verdadeiros encerram todas recursoes, mas nao precisamos
+do melhor resultado, mas sim que ao menos um ramo de verdadeiro.
