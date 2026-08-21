@@ -29,17 +29,19 @@ public:
 
         if (i == s.length() && j != p.length()) // se s ja chegou ao fim
         {
-            if (p.length() % 2 == 1) // verifica se paridade impar => ao menos uma letra nao pode ser eliminada com *
+            if ((p.length() - j) % 2 == 1) // verifica se paridade impar => ao menos uma letra nao pode ser eliminada com *
             {
                 M[i][j] = FALSE;
                 return false;
             }
-            if (p[j + 1] == '*')              // se for paridade par => pode ocorrer de tudo ser o par {char,*} que seria valido
+            if (j < p.length() - 1 && p[j + 1] == '*') // se for paridade par => pode ocorrer de tudo ser o par {char,*} que seria valido
+            {
                 if (M[i][j + 2] == UNDEFINED) // se ainda nao foi calculado
                 {
                     if (solve(M, s, p, i, j + 2)) // retorna se der certo
                         return true;
                 }
+            }
             M[i][j] = FALSE; // salva como falso se der errado
             return false;
         }
@@ -64,9 +66,12 @@ public:
         }
         else
         {
-            if (j < p.length() - 1 && p[j + 1] == '*' && solve(M, s, p, i, j + 2))
-                return true;
-            M[i][j + 2] = FALSE;
+            if (j < p.length() - 1 && p[j + 1] == '*')
+            {
+                if (solve(M, s, p, i, j + 2))
+                    return true;
+                M[i][j + 2] = FALSE;
+            }
         }
 
         M[i][j] = FALSE;
