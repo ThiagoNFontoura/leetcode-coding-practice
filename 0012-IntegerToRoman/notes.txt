@@ -1,0 +1,2 @@
+Algoritmo Greedy que decrementa o valor e vai adicionando as respectivas nomenclaturas.
+Logica proxima de problemas de troco de moedas.
