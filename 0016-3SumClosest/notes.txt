@@ -1,0 +1,6 @@
+A solucao percorre todos os elementos do vetor ordenado e, para cada iteracao,
+utiliza dois ponteiros para realizar as somas, avancando o ponteiro esquerdo
+quando a soma eh menor que target e o direito quando a soma eh maior que target.
+Quando a diferenca entre a soma e target eh menor que a diferenca entre a solucao
+atual e o target, atualiza a solucao e a diferenca. Quando a soma eh igual ao target,
+apenas retorna a soma, pois essa eh a melhor solucao possivel.
