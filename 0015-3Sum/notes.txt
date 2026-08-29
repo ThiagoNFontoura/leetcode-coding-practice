@@ -1,0 +1,4 @@
+A solucao percorre todos os elementos do vetor ordenado e, para cada iteracao,
+utiliza dois ponteiros para realizar as somas, avancando o ponteiro esquerdo
+quando a soma negativa e o direito quando a soma positiva. Quando zera, salva
+a trinca de elementos na solucao.

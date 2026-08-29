@@ -1,6 +1,4 @@
-Solucao utiliza um vetor de tamanho igual ao codigo ASCII de 'Z' + 1,
-usando como indices dos valores de cada letra do numero romano a propria
-letra.
-Ao ler uma letra, busca seu valor e compara com o valor da proxima letra.
-Se for maior, significa que é um caso de IV,IX,XL,XC,CD ou CM e entao subtrai
-o valor da letra ao inves de somar ele.
+Solucao simples. Para cada indice i, referente a uma posicao de vetor,
+verifica se o char daquela posicao é, para todas as strings de strs,
+igual ao char daquela posicao da primeira strins. Se sim, concatena.
+Se nao, retorna a solucao.
