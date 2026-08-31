@@ -1,0 +1,4 @@
+A solucao utiliza hash map para mapear os digitos referentes a cada numero
+do teclado do celular. Cada recursao trabalha sobre o digito head da string
+de digitos e concatena todas letras correspondentes a ele com a recursao 
+passando como parametro a tail da string de digitos.
