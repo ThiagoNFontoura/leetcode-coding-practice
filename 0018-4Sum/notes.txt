@@ -1,0 +1,6 @@
+A solucao usa dois pares de ponteiros. O par externos avanca as borda
+enquanto os internos fazem a varredura dos elementos entre as bordas
+avancando um ou outro dependendo da soma ser maior ou menor que target.
+Quando a soma eh igual, insere-se os elementos na solucao e os ponteiros
+internos avancam ate que todos elementos repetidos tenham sido passados
+ou tenham se sobrepostos.
