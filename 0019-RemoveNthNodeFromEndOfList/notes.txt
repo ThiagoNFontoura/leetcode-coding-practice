@@ -1,0 +1,6 @@
+A solucao insere todos os nodos em um vector, na mesma ordem em que
+estao da SLL, calcaula a posicao de remocao do nodo e verifica casos
+de borda (remocao do ultimo nodo, primeiro nodo, lista com tamanho 0 e 1).
+Caso nao seja um caso de borda, procede normalmente trocando next do
+nodo anterior ao atual para apontar para o sucessor do atual e deleta
+o atual.
