@@ -1,0 +1,7 @@
+A solucao consiste em um unico loop que registra o menor impar e o menor par.
+Caso nao existe nenhum impar, a solucao ja eh true, caso contrario, temos que
+testar apenas o caso de todos impares, pois, como numsi-numsj>=1, nao existe
+impar em nums1 que satisfaca essa condicao para o menor impar de nums1.
+Para o caso de todos impares, eh preciso testas apenas se o menor par eh
+maior que o menor impar, pois, caso contrario, a transformacao do menor par
+sempre resultaria em um impar negativo.
