@@ -9,11 +9,10 @@ Dentro de cada pasta:
 solution.cpp - a solução em C++
 notes.txt - anotações sobre o padrão usado (Hash Map, Two Pointers, DP, Sliding Window etc), complexidade de tempo e espaço, e observações sobre a primeira tentativa
 
-Problemas resolvidos
-
-0001 - Two Sum - Easy
-
 Progresso
 
-Total resolvido: 1
-Easy: 1, Medium: 0, Hard: 0
+Total resolvido: 19
+Easy: 4, Medium: 13, Hard: 2
+
+Perfil
+https://leetcode.com/u/ThiagoNF04/
