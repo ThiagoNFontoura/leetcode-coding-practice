@@ -1,0 +1,3 @@
+A solucao usa manipulacao de ponteiros pra inserir os nodos da lista2
+na lista1 nas posicoes corretas, salvando o nodo anterior da lista1 para
+inserir os nodos da lista2 entre ele e o nodo lista1.
