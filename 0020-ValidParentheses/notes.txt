@@ -1,0 +1,1 @@
+A solucao utiliza uma pilha para fazer o parser de parenteses, colchetes e chaves.
