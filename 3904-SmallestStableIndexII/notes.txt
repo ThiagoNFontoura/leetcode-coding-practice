@@ -1,0 +1,6 @@
+A solucao utiliza dois vetores auxiliares que guardam maxN e minN, respectivamente,
+o maior numero em uma posicao menor ou igual a i e o menor numero em uma posicao maior
+ ou igual a i, comparando o maior e menor anterior com o atual para checar se atualiza
+ ou nao.
+ Apos, itera para cada elemento i e retorna o indice do primeiro elemento em que
+ maxN[i] - minN[n-1-i] (pois o vetor minN foi contruido de tras para frente) for menor que k.
