@@ -1,0 +1,7 @@
+A solucao usa DP com uma matriz M de tamanho n+1 por n+1. Cada recursao
+com os parametros n e m verfica dois casos: abrir parentes (se n>0) e
+fechar parentes (se m>0). n representa o numero de parenteses que ainda
+precisam ser aberto e m o numero de parentes que ainda precisa ser fechados.
+Toda vez que testa o caso de abrir, concatena '(' com todas strings de
+M[n-1][m+1]. Toda vez que testa o caso de fechar, concatena ')' com todas
+strings de M[n][m-1].
