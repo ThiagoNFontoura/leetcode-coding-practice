@@ -1,0 +1,5 @@
+A solucao usa priority queue para armazenar a head de cada
+uma das listas, atualizando next do ultimo nodo inserido na
+lista de solucao head com o menor elemento da priority queue.
+Ao inserir o nodo na solucao, da push no seu next na priority
+queue.
