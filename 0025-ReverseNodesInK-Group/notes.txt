@@ -1,0 +1,3 @@
+A solucao usa manipulacao de 3 ponteiros para inverter
+as sublistas de tamanho k e de 2 ponteiros para fazer
+a juncao adequada de heads e tails.
