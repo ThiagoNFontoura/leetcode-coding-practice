@@ -1,0 +1,5 @@
+A solucao usa manipulacao basica de ponteiros para fazer
+o swap dos nos. Utiliza variaveis para guardar nos vizinhos
+aos pares de nos que vao ser trocados (prev e temp) e
+variaveis para guardar os nos propriamente ditos (first e
+second).
