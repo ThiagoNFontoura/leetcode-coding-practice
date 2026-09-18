@@ -1,0 +1,5 @@
+A solucao usa dois ponteiros para controlar a leitura
+e escrita no vetor. Quando encontra um elemento diferente
+de val, copia ele para a posicao de escrita e avança
+os dois ponteiros. Caso seja igual, apenas avança o
+ponteiro de leitura.
