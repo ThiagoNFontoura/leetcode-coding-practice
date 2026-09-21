@@ -1,0 +1,6 @@
+A solucao usa dois ponteiros, um que avanca sobre haystack ate
+encontrar uma ocorrencia da primeira letra de needle, a partir
+da qual o segundo ponteiro avanca a partir do primeiro ate uma
+posicao equivalente a primeiro+size(needle)-1, retornando primeiro
+se todas letras baterem com needle e quebrando a iteracao no
+momento que uma verificacao falhar.
