@@ -11,8 +11,8 @@ notes.txt - anotações sobre o padrão usado (Hash Map, Two Pointers, DP, Slidi
 
 Progresso
 
-Total resolvido: 29
-Easy: 9, Medium: 16, Hard: 4
+Total resolvido: 30
+Easy: 9, Medium: 17, Hard: 4
 
 Perfil
 https://leetcode.com/u/ThiagoNF04/

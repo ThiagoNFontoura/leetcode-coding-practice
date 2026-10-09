@@ -1,0 +1,3 @@
+A solição utiliza shifts para esquerda no lugar de multiplicações
+por 2 e shifts para direita no lugar de divisões por dois. A nível
+de bit, shift tem o mesmo efeito que essas operações.
