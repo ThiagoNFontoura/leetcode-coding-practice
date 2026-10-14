@@ -1,0 +1,7 @@
+As primeiras solucoes utilizavam lacos for e while para fazer
+checagens com sum. Isso, apesar de correto, eh custoso e, portanto,
+foi trocado por uma logica muito mais simples:
+Se sum for maior que um numero formado por num noves, entao nao tem solucao.
+Caso contrario, o numero eh formado por sum/9 noves e, no maximo, mais um 
+digito diferente de 0, que vai ser exatamente sum%=9. Os digitos restantes
+sao todos zeros.
