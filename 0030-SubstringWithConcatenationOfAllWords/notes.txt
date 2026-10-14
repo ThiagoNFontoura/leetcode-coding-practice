@@ -1,0 +1,10 @@
+A versao 1 utilizava brute force, testando cada posicao possivel da
+string e verificando se a substring encontrada era formada pela
+concatenacao de todas as palavras.
+
+A versao 2 utiliza sliding windows para avaliar as substrings de s em blocos do
+tamanho de uma palavra. Um hash map armazena a quantidade esperada de cada
+palavra e outro controla as palavras encontradas na janela atual. Quando uma
+palavra invalida aparece, a janela eh reiniciada, quando uma palavra aparece
+mais vezes que o permitido, o inicio da janela avanca ate a contagem ficar
+valida. Assim, cada posicao eh processada de forma mais eficiente.
