@@ -1,0 +1,6 @@
+A solucao utiliza um hash map para guarda a quantidade de
+vezes que cada elemento dentro do subvetor delimitador por
+i e j inclusos aparece. Quando um elemento esta duplicado,
+c (counter) não sofre incremento. Quando não esta duplicado,
+c sofre incremento. A cada iteracao o valor de c*c eh somado
+a sum (resposta).
