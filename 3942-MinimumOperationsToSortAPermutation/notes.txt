@@ -1,0 +1,8 @@
+A solucao utiliza dois lacos for para, primeiramente, contar o numero
+de ocorrencias de '<' e de '>' (ascendencia e descendencia respectivamente)
+e, depois, para varrer o vetor utilizando a operacao adequada ('<' ou '>')
+para encontrar o ponto de quebra da sequencia e checar ocorrencias de diff>1
+ou de dois pontos de quebra, retornando -1 imediatamente.
+Ao final, se for caso de ascendencia, retorna o menor valor entre somente
+rotates e inversao+rotates+inversao. Se for caso de descendencia, retorna
+o menor valor entre inversao+rotates e rotates+inversao.
