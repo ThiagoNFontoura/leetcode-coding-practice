@@ -1,0 +1,8 @@
+A solucao varre o vetor nums da direita para esquerda
+ate encontrar a primeira ocorrencia de '<' entre dois
+elementos x e y, salvando a posicao de x (elemento mais
+a esquerda).
+Em seguida, faz swap entre x e o menor elemento z maior 
+que x do subvetor a direita de x. Por fim, ordena
+crescentemente esse mesmo subvetor, agora contendo x e
+não mais com z.
