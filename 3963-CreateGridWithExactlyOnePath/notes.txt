@@ -1,0 +1,4 @@
+A solucao constroi a grid usando um caminho que vai
+o maximo possivel para a direita e, depois, o maximo
+para a esquerda usando duas strings s0="...."...".."
+e s1="####"..."#.", inserindo 1x s0 no vetor e (m-1)x s1;
