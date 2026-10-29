@@ -1,0 +1,7 @@
+A solucao usa uma string de bits como se fosse vetor
+de booleanos para marcar quais numeros sao gerados
+de alguma forma usando XORs desde (0,0).
+Para cada celula, marca como 1 os valores que podem ser
+gerados atraves de x XOR y, onde x eh o valor do nodo
+atual e y os valores possivelmente gerados pelos nodos
+de cima e da esquerda.
